@@ -9,9 +9,34 @@
 
     <!--Intégration de mon css-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/Header&Footer.css">
+
+    <!--Intégration des Fonts-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
     <title>TPMS</title>
 </head>
 <body>
+    <div class="container">
+        <!--Création du Header-->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbox">
+                <i class="fa fa-bars"></i>
+            </label>
+            <script src="https://kit.fontawesome.com/0c87a70838.js"></script>
+            <label class="logo">TPMS</label>
+            <ul>
+                <li><a href="#">Informations</a></li>
+                <li><a href="#">Événement</a></li>
+                <li><a href="#">Rejoins-nous!</a></li>
+            </ul>
+        </nav>
+        <!--Fin du header-->
+    </div>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>

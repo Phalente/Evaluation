@@ -13,7 +13,8 @@ body {
 
 main {
     padding: 10px;
-    padding-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 30px;
 }
 
 /* Fonts */
@@ -103,3 +104,4 @@ h5 {
     width: 100%;
     height: 100%;
 }
+

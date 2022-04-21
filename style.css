@@ -54,6 +54,7 @@ h5 {
     width: 150px;
     height: 150px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .card .content .picture img {
@@ -90,6 +91,7 @@ h5 {
     width: 150px;
     height: 150px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .card2 .content .picture img {

@@ -13,8 +13,7 @@ body {
 
 main {
     padding: 10px;
-    padding-top: 70px;
-    padding-bottom: 30px;
+    padding-top: 95px;
 }
 
 /* Fonts */
@@ -24,10 +23,71 @@ p {
     text-align: center;
 }
 
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: #000;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+}
+
 h5 {
     font-family: 'Press Start 2P', cursive;
 }
 
+/* Caroussel */
+
+.slider-container img {
+    max-width: 100%;
+}
+.slider-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    height: 350px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
+    border: 2px solid black;
+}
+.menu-caroussel {
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.menu-caroussel label {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+.menu-caroussel label:hover,.menu label:focus {
+    background:linear-gradient(#5f0a87,#a4508b);
+}
+.slide-input{
+    opacity: 0;
+}
+.slide-img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .slide-img {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
 
 /* Cards */
 

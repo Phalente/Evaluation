@@ -41,7 +41,62 @@
 
         <!--Début de la main page-->
         <main>
-            <h1>Join-US</h1>
+            <h1>Rejoins-nous !</h1>
+            <form method="POST" action="inscription.php">
+                <fieldset>
+                    <legend>Informations de Streamer</legend>
+
+                    <label for="pseudo-streamer">Pseudo Streamer</label>
+                    <input type="pseudo" name="pseudo" id="pseudo" required placeholder="Pseudo Streamer">
+
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password" required placeholder="mot de passe">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Civilité</legend>
+        
+                    <label for="Firstname">Prénom</label>
+                    <input type="text" name="Firstname" id="Firstname" required placeholder="Votre prénom">
+        
+                    <label for="Lastname">Nom</label>
+                    <input type="text" name="Lastname" id="Lastname" required placeholder="Votre nom">
+        
+                    <label for="BirthDate">Date de naissance</label>
+                    <input type="date" name="BirthDate" id="BirthDate">
+        
+                    <label for="phonenumber">Numéro de téléphone</label>
+                    <input type="tel" name="tel" id="tel" placeholder="Votre numéro de téléphone">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Jeux-Vidéos</legend>
+        
+                    <label for="games">Console favorite</label>
+                    <select name="games" id="games" multiple>
+                        <option value="Nintendo">Nintendo Switch</option>
+                        <option value="Sony">PS5 / PS4</option>
+                        <option value="Microsoft">Xbox Series-X/S</option>
+                        <option value="PC">PC</option>
+                    </select>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Parrainage</legend>
+        
+                    <label for="sponsor">Streamer favori</label>
+                    <select name="sponsor" id="sponsor">
+                        <option value="">Votre streamer favori </option>
+                        <option value="Madaojisan">Madaojisan</option>
+                        <option value="Lesombrhero">Lesombrhero</option>
+                        <option value="Wiiztoxz">Wiiztoxz</option>
+                        <option value="Lucky-Fail8">Lucky-Fail8</option>
+                        <option value="Leanou">Leanou</option>
+                        <option value="bzh-squad">BZH-SQUAD</option>
+                    </select>
+                </fieldset>
+                <button type="submit">Envoyer le formulaire d'inscription</button>
+            </form>
         </main>
         <!--Fin de la main page-->
 

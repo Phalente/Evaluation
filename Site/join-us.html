@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Intégration de la librairie Bootstrap que je n'utiliserais pas pour ce projet par choix personnel.
+    <link rel="stylesheet" href="./style/bootstrap.min.css"> --> 
+
+    <!--Intégration de mon css-->
+    <link rel="stylesheet" href="/style/join-us.css">
+    <link rel="stylesheet" href="/style/Header&Footer.css">
+
+    <!--Intégration des Fonts-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+    <title>TPMS</title>
+</head>
+<body>
+    <div class="container">
+        <!--Création du Header-->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbox">
+                <i class="fa fa-bars"></i>
+            </label>
+            <script src="https://kit.fontawesome.com/0c87a70838.js"></script>
+            <label class="logo">
+                <a href="/index.html">
+                    TPMS 
+                </a>
+            </label>
+            <ul>
+                <li><a href="/Site/informations.html">Informations</a></li>
+                <li><a href="/Site/event.html">Événement</a></li>
+                <li><a href="/Site/join-us.html">Rejoins-nous!</a></li>
+            </ul>
+        </nav>
+        <!--Fin du header-->
+
+        <!--Début de la main page-->
+        <main>
+            <h1>Join-US</h1>
+        </main>
+        <!--Fin de la main page-->
+
+        <!--Début du Footer-->
+        <footer>
+            <div class="contenu-footer">
+                <div class="footer-menu">
+                    <h3>Nos réseaux sociaux</h3>
+                    <ul class="menu-social">
+                        <li>
+                            <img class="icon-social" src="/Reseaux/facebook.svg" alt="Facebook icon">
+                            <a href="https://www.facebook.com/" target="_blank" >Facebook</a>
+                        </li>
+                        <li>
+                            <img class="icon-social" src="/Reseaux/twitter.svg" alt="Twitter icon">
+                            <a href="https://twitter.com/TPMStream" target="_blank">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-menu">
+                    <h3>Newsletter</h3>
+                    <form>
+                        <div class="news">
+                            <input class="newsletter" type="email" name="mail" placeholder="Votre mail..."/>
+                            <input class="btnsub" type="reset" value="M'abonner"/>
+                        </div>
+                    </form>
+                </div>
+                <p>&copy; 2022 Phalente Robyn - Projet Studi</p>
+            </div>
+        </footer>
+        <!--Fin du Footer-->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>

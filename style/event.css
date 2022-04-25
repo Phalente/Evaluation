@@ -2,6 +2,7 @@
     margin: 0;
     list-style: none;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -27,6 +28,18 @@ h1 {
     padding-top: 25px;
 }
 
+h3 {
+    padding-bottom: 10px;
+}
+
 .container {
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f2f2f2;
 }

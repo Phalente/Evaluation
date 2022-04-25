@@ -117,6 +117,13 @@ h5 {
 
 /* Cards */
 
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+}
+
 .card {
     height: 350px;
     width: 300px;
@@ -152,7 +159,7 @@ h5 {
 }
 
 .card2 {
-    height: 360px;
+    height: 350px;
     width: 300px;
     background: linear-gradient(#a4508b, #5f0a87);
     backdrop-filter: blur(5px);

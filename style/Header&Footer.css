@@ -294,7 +294,7 @@ nav ul li a:hover{
 }
 
 @media screen and (min-width: 800px) {
-    /* Responsive Navbar */
+    /* Responsive footer */
     .contenu-footer{
         display: flex;
         margin: 20px;

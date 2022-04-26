@@ -74,7 +74,13 @@ h3, h4 {
     padding: 5px;
 }
 
+.programme ul li a {
+    color: #5f0a87;;
+}
 
+.programme ul li a:hover{
+    color: red;
+}
 
 
 /* Catégorie qui sommes nous*/

@@ -65,7 +65,7 @@ nav ul li a{
     background: #5f0a87;
     border-bottom: 2px solid black;
     transition: 0.3s;
-    /*clip-path: polygon(
+    clip-path: polygon(
         100% 0,
         100% 35%,
         100% 50%,
@@ -76,7 +76,7 @@ nav ul li a{
         0 50%,
         0 35%,
         0 0
-    );*/
+    );
 }
 
 nav ul li a:hover{
@@ -210,7 +210,7 @@ footer ul li a{
     border-radius: 50px;
     border-bottom: 2px solid black;
     transition: 0.3s;
-    /*clip-path: polygon(
+    clip-path: polygon(
         100% 0,
         100% 35%,
         100% 50%,
@@ -221,7 +221,7 @@ footer ul li a{
         0 50%,
         0 35%,
         0 0
-    );*/
+    );
 }
 
 footer ul li a:hover{
@@ -247,7 +247,7 @@ footer ul li a:hover{
 
 
 /* Media Queries */
-@media screen and (min-width: 628px) {
+@media screen and (min-width: 700px) {
     /* Responsive Navbar */
     nav ul {
     float: right;
@@ -259,7 +259,7 @@ footer ul li a:hover{
     background: linear-gradient(#a4508b,#5f0a87);
     border: #000 solid 2px;
     top: -88px;
-    text-align: right;
+    margin-right: 25px;
 }
 
 nav ul li a{
@@ -312,7 +312,8 @@ nav ul li a:hover{
         margin: 0px 20px;
     }
 
-    
 }
 
-
+    footer p {    
+        align-self: center;
+}
